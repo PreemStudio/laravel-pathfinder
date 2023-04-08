@@ -1,0 +1,11 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method PreemStudio\\\\Pathfinder\\\\RouteSchema\\:\\:normalizeString\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/RouteSchema.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of class PreemStudio\\\\Pathfinder\\\\RouteSchema constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/RouteSchema.php
