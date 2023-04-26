@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\Pathfinder;
 
+use BombenProdukt\PackagePowerPack\Package\AbstractServiceProvider;
 use Illuminate\Routing\Route as BoundRoute;
 use Illuminate\Support\Facades\Route;
-use BombenProdukt\PackagePowerPack\Package\AbstractServiceProvider;
 
 final class ServiceProvider extends AbstractServiceProvider
 {

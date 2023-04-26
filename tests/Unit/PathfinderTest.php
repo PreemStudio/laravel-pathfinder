@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Unit;
 
-use Illuminate\Support\Facades\Route;
 use BombenProdukt\Pathfinder\Pathfinder;
+use Illuminate\Support\Facades\Route;
 
 it('should parse a route path', function (string $verb): void {
     $method = "{$verb}Matched";

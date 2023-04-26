@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Unit;
 
-use Illuminate\Support\Facades\Route;
 use BombenProdukt\Pathfinder\RouteConstraint;
+use Illuminate\Support\Facades\Route;
 
 it('should apply the [alpha] constraint', function (): void {
     $route = Route::view('/packages/{package}/{version}/{path?}', 'view');
