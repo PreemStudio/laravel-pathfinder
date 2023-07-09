@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-pathfinder/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-pathfinder" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-pathfinder">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-pathfinder" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-pathfinder">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-pathfinder" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-pathfinder">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-pathfinder" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Pathfinder
 
