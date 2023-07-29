@@ -1,6 +1,11 @@
 parameters:
 	ignoreErrors:
 		-
+			message: "#^Variable static method call on BombenProdukt\\\\Pathfinder\\\\RouteConstraint\\.$#"
+			count: 1
+			path: src/RouteConstraint.php
+
+		-
 			message: "#^Method BombenProdukt\\\\Pathfinder\\\\RouteSchema\\:\\:normalizeString\\(\\) should return string but returns string\\|null\\.$#"
 			count: 1
 			path: src/RouteSchema.php
@@ -9,3 +14,8 @@ parameters:
 			message: "#^Parameter \\#1 \\$path of class BombenProdukt\\\\Pathfinder\\\\RouteSchema constructor expects string, string\\|null given\\.$#"
 			count: 1
 			path: src/RouteSchema.php
+
+		-
+			message: "#^Variable static method call on Illuminate\\\\Support\\\\Facades\\\\Route\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
