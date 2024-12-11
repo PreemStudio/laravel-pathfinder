@@ -1,0 +1,16 @@
+{
+    "symbol-whitelist": [
+        "array",
+        "bool",
+        "false",
+        "int",
+        "null",
+        "self",
+        "string",
+        "true",
+        "collect",
+        "Illuminate\\Routing\\Route",
+        "Illuminate\\Support\\Facades\\Route",
+        "Illuminate\\Support\\Traits\\Macroable"
+    ]
+}

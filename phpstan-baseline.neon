@@ -1,0 +1,46 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Variable static method call on BaseCodeOy\\\\Pathfinder\\\\RouteConstraint\\.$#"
+			count: 1
+			path: src/RouteConstraint.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pathfinder\\\\RouteSchema\\:\\:__construct\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RouteSchema.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pathfinder\\\\RouteSchema\\:\\:normalizeString\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/RouteSchema.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of class BaseCodeOy\\\\Pathfinder\\\\RouteSchema constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/RouteSchema.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Pathfinder\\\\ServiceProvider\\:\\:\\$verbs type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Variable static method call on Illuminate\\\\Support\\\\Facades\\\\Route\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
+
+		-
+			message: "#^Variable static method call on Illuminate\\\\Support\\\\Facades\\\\Route\\.$#"
+			count: 1
+			path: tests/Unit/PathfinderTest.php
